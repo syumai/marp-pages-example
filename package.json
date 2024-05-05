@@ -4,14 +4,15 @@
   "private": true,
   "scripts": {
     "deploy": "wrangler pages deploy ./public",
-    "dev": "wrangler pages dev --compatibility-date=2024-04-05 ./public"
+    "dev": "wrangler pages dev ./public"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20240502.0",
+    "@types/node": "^20.12.8",
     "typescript": "^5.4.5",
     "wrangler": "^3.53.1"
   },
   "dependencies": {
-    "@marp-team/marp-core": "^3.9.0"
+    "@marp-team/marp-core": "../marp-core"
   }
 }
