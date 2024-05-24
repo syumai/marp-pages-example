@@ -45,6 +45,7 @@ section {
     <script src="https://unpkg.com/bespoke-classes@1.0.0/dist/bespoke-classes.js"></script>
     <script src="https://unpkg.com/bespoke-keys@1.1.0/dist/bespoke-keys.min.js"></script>
     <script src="https://unpkg.com/bespoke-hash@1.0.2/dist/bespoke-hash.min.js"></script>
+    <script src="https://unpkg.com/bespoke-touch@1.0.0/dist/bespoke-touch.min.js"></script>
     <script>
     bespoke.from({
       parent: '.marpit',
@@ -53,6 +54,7 @@ section {
       bespoke.plugins.classes(),
       bespoke.plugins.keys(),
       bespoke.plugins.hash(),
+      bespoke.plugins.touch(),
     ]);
     </script>
   </body></html>
