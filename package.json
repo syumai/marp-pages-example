@@ -1,20 +1,20 @@
 {
-	"name": "marp-pages-example",
-	"version": "1.0.0",
-	"private": true,
-	"scripts": {
-		"deploy": "wrangler pages deploy ./public",
-		"dev": "wrangler pages dev ./public",
-		"format": "biome format --write ./lib ./functions"
-	},
-	"devDependencies": {
-		"@biomejs/biome": "^1.7.3",
-		"@cloudflare/workers-types": "^4.20240502.0",
-		"@types/node": "^20.12.8",
-		"typescript": "^5.4.5",
-		"wrangler": "^3.57.1"
-	},
-	"dependencies": {
-		"@syumai/marp-core": "^3.9.3"
-	}
+  "name": "marp-pages-example",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler pages deploy ./public",
+    "dev": "wrangler pages dev ./public",
+    "format": "biome format --write ./lib ./functions"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.7.3",
+    "@cloudflare/workers-types": "^4.20240502.0",
+    "@types/node": "^20.12.8",
+    "typescript": "^5.4.5",
+    "wrangler": "^3.57.1"
+  },
+  "dependencies": {
+    "@syumai/marp-core": "^3.9.3"
+  }
 }
